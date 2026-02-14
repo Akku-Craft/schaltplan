@@ -2017,7 +2017,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 110.49) (xy 125.73 138.43)
+			(xy 125.73 110.49) (xy 125.73 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2147,7 +2147,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 138.43) (xy 125.73 138.43)
+			(xy 114.3 132.08) (xy 125.73 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2257,7 +2257,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 135.89) (xy 194.31 135.89)
+			(xy 114.3 129.54) (xy 194.31 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2387,7 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 135.89) (xy 194.31 74.93)
+			(xy 194.31 129.54) (xy 194.31 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3171,7 +3171,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 109.22 135.89 0)
+		(at 109.22 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3180,7 +3180,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae9030fd-8a00-4106-a724-33b9892eb1ca")
 		(property "Reference" "J2"
-			(at 109.855 130.81 0)
+			(at 109.855 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +3188,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 109.855 133.35 0)
+			(at 109.855 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,7 +3196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 135.89 0)
+			(at 109.22 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +3205,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 135.89 0)
+			(at 109.22 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +3214,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 109.22 135.89 0)
+			(at 109.22 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
