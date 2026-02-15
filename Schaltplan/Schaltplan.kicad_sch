@@ -2461,10 +2461,10 @@
 		(uuid "cd424fa8-48ca-4b67-b354-9b58fc926015")
 	)
 	(junction
-		(at 154.94 144.78)
+		(at 168.91 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d004de76-22b8-407a-a99c-de480d78c956")
+		(uuid "ef4df2a6-42d5-4767-8554-1d0e0ee428b3")
 	)
 	(junction
 		(at 125.73 135.89)
@@ -2510,16 +2510,6 @@
 			(type default)
 		)
 		(uuid "042c558f-672a-48be-951e-2a10a6710855")
-	)
-	(wire
-		(pts
-			(xy 154.94 135.89) (xy 168.91 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04fa3ae9-c45b-4695-83e9-4b72d7a91d43")
 	)
 	(wire
 		(pts
@@ -2683,7 +2673,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 134.62) (xy 227.33 137.16)
+			(xy 241.3 125.73) (xy 241.3 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2833,7 +2823,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 144.78) (xy 154.94 149.86)
+			(xy 154.94 135.89) (xy 154.94 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2933,7 +2923,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 144.78) (xy 227.33 144.78)
+			(xy 154.94 135.89) (xy 168.91 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3033,7 +3023,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 123.19) (xy 227.33 127)
+			(xy 241.3 114.3) (xy 241.3 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3093,16 +3083,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 135.89) (xy 154.94 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeed6499-1b98-44b7-b86f-d6de39203c7a")
-	)
-	(wire
-		(pts
 			(xy 90.17 83.82) (xy 90.17 105.41)
 		)
 		(stroke
@@ -3133,7 +3113,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 54.61) (xy 227.33 54.61)
+			(xy 201.93 54.61) (xy 241.3 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3160,6 +3140,16 @@
 			(type default)
 		)
 		(uuid "caefaf62-be39-49ef-a921-92d9e816ba93")
+	)
+	(wire
+		(pts
+			(xy 168.91 135.89) (xy 241.3 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2132a28-776e-4e9e-8878-fa904012da95")
 	)
 	(wire
 		(pts
@@ -3213,7 +3203,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 54.61) (xy 227.33 115.57)
+			(xy 241.3 54.61) (xy 241.3 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3465,7 +3455,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 227.33 120.65 0)
+		(at 241.3 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3473,7 +3463,7 @@
 		(dnp no)
 		(uuid "36341987-d954-49d5-9f9c-59f052fbc1f3")
 		(property "Reference" "BT3"
-			(at 231.14 117.5384 0)
+			(at 245.11 108.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3472,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 231.14 120.0784 0)
+			(at 245.11 111.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,7 +3481,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 119.126 90)
+			(at 241.3 110.236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,7 +3490,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 119.126 90)
+			(at 241.3 110.236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +3499,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 227.33 120.65 0)
+			(at 241.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +3508,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 227.33 120.65 0)
+			(at 241.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3517,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 227.33 120.65 0)
+			(at 241.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,7 +3526,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 227.33 120.65 0)
+			(at 241.3 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3636,7 +3626,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 227.33 142.24 0)
+		(at 241.3 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3644,7 +3634,7 @@
 		(dnp no)
 		(uuid "42cdd593-1843-491f-9ded-51e66b79bc10")
 		(property "Reference" "BT4"
-			(at 231.14 139.1284 0)
+			(at 245.11 130.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,7 +3643,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 231.14 141.6684 0)
+			(at 245.11 132.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3652,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 140.716 90)
+			(at 241.3 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3661,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 140.716 90)
+			(at 241.3 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,7 +3670,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 227.33 142.24 0)
+			(at 241.3 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3689,7 +3679,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 227.33 142.24 0)
+			(at 241.3 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,7 +3688,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 227.33 142.24 0)
+			(at 241.3 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3707,7 +3697,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 227.33 142.24 0)
+			(at 241.3 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +4604,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 227.33 130.81 90)
+		(at 241.3 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4622,7 +4612,7 @@
 		(dnp no)
 		(uuid "eb4db062-30a7-4946-8293-ec0be2465935")
 		(property "Reference" "D1"
-			(at 231.902 130.302 90)
+			(at 245.872 121.412 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +4620,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 231.902 132.842 90)
+			(at 245.872 123.952 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4638,7 +4628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 130.81 0)
+			(at 241.3 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4647,7 +4637,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 130.81 0)
+			(at 241.3 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,7 +4646,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 227.33 130.81 0)
+			(at 241.3 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,7 +4655,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 227.33 130.81 0)
+			(at 241.3 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
