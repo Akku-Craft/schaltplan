@@ -49,3 +49,8 @@ Typical workflow for changes:
 ## Backups
 
 KiCad automatically creates backups in the `Schaltplan-backups/` folder. The ZIP files contain snapshots of the project at various points in time.
+
+
+## License
+
+This project is licensed under the CC BY-NC-ND License – see the [LICENSE](LICENSE) file for details.
