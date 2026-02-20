@@ -1,48 +1,51 @@
-# Akku-Craft Schaltpläne
+# Akku-Craft Schematics
 
-Hier findest du die Schaltpläne und PCB-Layouts für das Akku-Craft Projekt.
+Here you can find the schematics and PCB layouts for the Akku-Craft project.
 
-## Übersicht
+## Overview
 
-Das Projekt enthält KiCad-Dateien für die Entwicklung von Akku-Management- und Überwachungssystemen. Der Hauptschaltplan sowie ein separater Stromsensor sind enthalten.
+The project contains KiCad files for the development of battery management and monitoring systems. The main schematic as well as a separate current sensor are included.
 
-![Schaltplan](schaltplan.png)
+![Schematic](schaltplan.png)
 
-## Projektstruktur
+## Project Structure
+
 
 ```
+
 Schaltplan/
-├── Schaltplan.kicad_sch      # Haupt-Schaltplan
-├── Schaltplan.kicad_pcb      # PCB-Layout
-├── Schaltplan.kicad_pro      # KiCad Projektdatei
-├── sensor_corrente.kicad_sch # Stromsensor Schaltplan
-├── sensor_corrente.kicad_pcb # Stromsensor PCB-Layout
-└── Schaltplan-backups/       # Automatische Backups
+├── Schaltplan.kicad_sch      # Main schematic
+├── Schaltplan.kicad_pcb      # PCB layout
+├── Schaltplan.kicad_pro      # KiCad project file
+├── sensor_corrente.kicad_sch # Current sensor schematic
+├── sensor_corrente.kicad_pcb # Current sensor PCB layout
+└── Schaltplan-backups/       # Automatic backups
+
 ```
 
 ## Software
 
-Das Projekt wurde mit KiCad erstellt. Empfohlen wird Version 9.x oder höher.
+The project was created with KiCad. Version 9.x or higher is recommended.
 
 Download: https://www.kicad.org/
 
 ## Installation
 
-Repository klonen und die Datei `Schaltplan/Schaltplan.kicad_pro` in KiCad öffnen.
+Clone the repository and open the file `schematics/Schaltplan.kicad_pro` in KiCad.
 
-## Komponenten
+## Components
 
-Der Hauptschaltplan befindet sich in `Schaltplan.kicad_sch`.
+The main schematic is located in `Schaltplan.kicad_sch`.
 
 ## Workflow
 
-Typischer Arbeitsablauf bei Änderungen:
+Typical workflow for changes:
 
-1. Schaltplan in KiCad öffnen und bearbeiten
-2. PCB-Layout entsprechend aktualisieren
-3. Design-Rule-Check durchführen
-4. Gerber-Dateien für die Fertigung exportieren
+1. Open and edit the schematic in KiCad
+2. Update the PCB layout accordingly
+3. Perform a Design Rule Check (DRC)
+4. Export Gerber files for manufacturing
 
 ## Backups
 
-KiCad erstellt automatisch Backups im Ordner `Schaltplan-backups/`. Die ZIP-Dateien enthalten Snapshots des Projekts zu verschiedenen Zeitpunkten.
+KiCad automatically creates backups in the `Schaltplan-backups/` folder. The ZIP files contain snapshots of the project at various points in time.
