@@ -53,4 +53,4 @@ KiCad automatically creates backups in the `Schaltplan-backups/` folder. The ZIP
 
 ## License
 
-This project is licensed under the CC BY-NC-ND License – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the CC BY-NC-SA License – see the [LICENSE](LICENSE) file for details.
