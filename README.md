@@ -17,6 +17,7 @@ Schaltplan/
 ├── Schaltplan.kicad_sch      # Main schematic
 ├── Schaltplan.kicad_pcb      # PCB layout
 ├── Schaltplan.kicad_pro      # KiCad project file
+├── Schaltplan.kicad_prl
 └── Schaltplan-backups/       # Automatic backups
 
 ```
