@@ -5478,7 +5478,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 100.33) (xy 146.05 143.51)
+			(xy 146.05 100.33) (xy 146.05 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5598,7 +5598,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 151.13) (xy 146.05 153.67)
+			(xy 146.05 147.32) (xy 146.05 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6410,7 +6410,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 147.32 0)
+		(at 146.05 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6418,7 +6418,7 @@
 		(dnp no)
 		(uuid "4eac9400-dfc8-4859-972f-065240533053")
 		(property "Reference" "R1"
-			(at 148.59 146.0499 0)
+			(at 148.59 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6428,7 +6428,7 @@
 			)
 		)
 		(property "Value" "R 10kΩ"
-			(at 143.256 142.748 0)
+			(at 137.922 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6437,7 +6437,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.272 147.32 90)
+			(at 144.272 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,7 +6446,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 147.32 0)
+			(at 146.05 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6455,7 +6455,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 147.32 0)
+			(at 146.05 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
