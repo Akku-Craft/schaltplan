@@ -4006,6 +4006,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Jeweils an den beiden Akkuzellen"
+		(exclude_from_sim no)
+		(at 52.07 20.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3e957b8a-dd6b-4bb3-9685-fadbe3457e73")
+	)
 	(junction
 		(at 29.21 15.24)
 		(diameter 0)
