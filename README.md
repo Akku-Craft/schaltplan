@@ -13,8 +13,7 @@ The project contains KiCad files for the development of battery management and m
 
 ```
 
-Schaltplan/
-├── Schaltplan.kicad_sch      # Main schematic
+┌── Schaltplan.kicad_sch      # Main schematic
 ├── Schaltplan.kicad_pcb      # PCB layout
 ├── Schaltplan.kicad_pro      # KiCad project file
 ├── Schaltplan.kicad_prl
