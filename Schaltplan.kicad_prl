@@ -55,7 +55,7 @@
   },
   "git": {
     "repo_type": "https",
-    "repo_username": "0day-sudo",
+    "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
