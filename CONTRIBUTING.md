@@ -61,7 +61,7 @@ Small PRs are easier to review and merge quickly.
 
 The easiest way to coordinate is via **Discord**:
 
-- **jumpstone4477** (preferred)
+- **henrymmey** (preferred)
 - **akku_craft**
 
 If Discord is not an option, use the contact method listed in the Akku-Craft project channels.
